@@ -1,0 +1,48 @@
+
+body {
+    font-family: monospace;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #032b3f;
+   
+}
+
+.gameContainer__detail {
+    
+    background-color: rgb(29, 38, 63);
+    padding: 20px;
+    color: rgb(210, 73, 15);
+    border-radius: 5px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.gameContainer {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #3a7796;
+    box-shadow: 2px 4px 5px 6px #72d0ff ;
+    border-radius: 4px;
+}
+
+.gameContainer .gameContainer__gameBoard {
+    width: 60vmin;
+    height: 60vmin;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+
+
+.gameContainer__gameBoard .food {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.gameContainer__gameBoard .snakeHead {
+    background-color: rgb(0, 255, 8);
+    border-radius: 4px;
+}
